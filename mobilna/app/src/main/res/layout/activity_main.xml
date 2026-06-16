@@ -20,6 +20,12 @@
         android:layout_weight="1"
         android:dividerHeight="8dp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj notatkę"
+        android:textSize="25dp"/>
+
     <EditText
         android:id="@+id/note_title"
         android:layout_width="match_parent"
@@ -31,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:hint="Treść notatki" />
+        android:hint="Treść notatki" />\
 
     <Button
         android:id="@+id/add_note_button"
